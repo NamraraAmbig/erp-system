@@ -17,7 +17,7 @@ function Products() {
     setProducts(data.products || []);
   };
 
-  useEffect(() => { fetchProducts(); }, [search]);
+  useEffect(() => { fetchProducts(); }, [search]); 
 
   const handleSave = async () => {
     try {
